@@ -93,8 +93,8 @@ DATABASES = {
         'ENGINE':'django.db.backends.mysql',
         'NAME':'movie',
         'USER':'root',
-        'PASSWORD':'root',
-        'HOST':'139.199.195.97',
+        'PASSWORD':'',
+        'HOST':'',
     },
 
 }
@@ -154,9 +154,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = False
 EMAIL_HOST = 'smtp.alibaba.com'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = 'yangyong@findourlove.com'
-EMAIL_HOST_PASSWORD = 'Iphone4s'
-DEFAULT_FROM_EMAIL = 'yangyong@findourlove.com'
+EMAIL_HOST_USER = 'test@test.com'
+EMAIL_HOST_PASSWORD = 'mima'
+DEFAULT_FROM_EMAIL = 'test@test.com'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
